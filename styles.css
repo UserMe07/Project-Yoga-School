@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #786744;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Katibeh', cursive;*/
+}
+
+main {
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.timetable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 35px;
+}
+
+.timetable td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 5px;
+}
+
+.baliDiv {
+    background-color: #fca504;
+    width: 20%;
+    box-shadow: 3px 3px 1px gold;
+    color: #786744;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.baliSubdiv {
+    display: block;
+}
+
+#location1 {
+    position: relative;
+    left: 40px;
+}
+
+#location2 {
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
+
+.classes {
+    margin: 30px;
+}
+.shop {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.yogaMats {
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mat2 {
+    position: absolute;
+    bottom: 0.5%;
+    right: 17.5%;
+}
+
+.price {
+    color: black;
+    font-weight: 900;
+}
+
+.moreProducts {
+    margin: 40px;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+
+    img {
+        float: left;
+    }
+
+    table {
+        float: left;
+    }
+  }
